@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "led_tv_and_sound_systems",
+  "info": {
+    "singularName": "led-tv-and-sound-system",
+    "pluralName": "led-tv-and-sound-systems",
+    "displayName": "LED TV & SOUND SYSTEM"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

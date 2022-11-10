@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "refrigerator_and_freezers",
+  "info": {
+    "singularName": "refrigerator-and-freezer",
+    "pluralName": "refrigerator-and-freezers",
+    "displayName": "REFRIGERATOR & FREEZER",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

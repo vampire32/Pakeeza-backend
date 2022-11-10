@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "washing_solutions",
+  "info": {
+    "singularName": "washing-solution",
+    "pluralName": "washing-solutions",
+    "displayName": "WASHING SOLUTION"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Brand": {
+      "type": "string"
+    }
+  }
+}

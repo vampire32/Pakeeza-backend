@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_appliances",
+  "info": {
+    "singularName": "home-appliance",
+    "pluralName": "home-appliances",
+    "displayName": "HOME APPLIANCE"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

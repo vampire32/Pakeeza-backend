@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "air_con_and_air_coolers",
+  "info": {
+    "singularName": "air-con-and-air-cooler",
+    "pluralName": "air-con-and-air-coolers",
+    "displayName": "AIR-CON & AIR COOLER",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
